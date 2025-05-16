@@ -1,0 +1,12 @@
+logging:
+  level:
+    org.hibernate: INFO
+    org.hibernate.orm.jdbc.bind: TRACE
+    org.hibernate.SQL: DEBUG
+    org.hibernate.type: TRACE
+    org.hibernate.loader.plan.exec.process.internal.AbstractLoadPlanBasedLoader: DEBUG
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/gastro_db
+    username: postgres
+    password: password
